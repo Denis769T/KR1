@@ -34,9 +34,10 @@ for (int index = 0; index < n; index++)
 }
 Console.WriteLine("-----------------------------------------");
 
-
-
-
+for (int i = 0; i < m; i++)//Вывод нового массива
+{
+    Console.WriteLine("  " + str[i]);
+}
 
 int Numbers(string text)
 {
