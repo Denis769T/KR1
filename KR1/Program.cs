@@ -17,6 +17,24 @@ for (int i = 0; i < n; i++)
 
 Console.WriteLine("----------------------------------------------------");
 
+// Сортировка данных массива
+
+Console.WriteLine("Вывод строк с значением меньше, либо равно трем символам  ");
+for (int index = 0; index < n; index++)
+    
+{
+    string strg = str[index];
+    if (strg.Length <= 3)
+ 
+     {
+        str[m] = str[index];
+        m++;
+     }
+      
+}
+Console.WriteLine("-----------------------------------------");
+
+
 
 
 
